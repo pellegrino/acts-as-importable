@@ -67,7 +67,7 @@ module AMC
                 p new_model.errors
                 # TODO log an error that the model failed to save
                 # TODO remove the raise once we're out of the development cycle
-                raise
+                # raise
               end
             end
           end
